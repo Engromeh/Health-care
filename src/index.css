@@ -1,3 +1,57 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Parkinsans", sans-serif;
+    background-color: #333 !important;
+}
+html{
+    scroll-behavior: smooth;
+}
+:root{
+    --main-color : #A8D5BA ;
+    --secondary-color : #2C3E50 ;
+    --btn-color : red
+
+    
+}
+section , footer , header{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    max-width: 100%;
+    padding: 25px 0px;
+    margin-top: 50px;
+}
+a{
+    text-decoration: none !important;
+}
+span{
+    display: block;
+}
+ul{
+
+    margin: 0;
+    padding: 0;
+}
+li{
+
+    list-style: none;
+}
+button{
+    text-align: center;
+    box-sizing: border-box;
+    height: 40px;
+    border-radius: 4px;
+}
+p{
+    line-height: 28px;
+}
+input{
+    padding: 5px 15px;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    text-align: left;
+    color: #333;
+    font-size: 16px;
+    font-family: "Parkinsans";
+}
